@@ -1,8 +1,5 @@
 <?
 	session_start();
-
-
-
 ?>
 
 
