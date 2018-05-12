@@ -14,10 +14,15 @@
 }
 
 .brand p{
+
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 24pt;
+	font-size: 20pt;
 	width: 100%;
 	color:white;
+}
+
+.brand a{
+	text-decoration: none;
 }
 
 nav{

@@ -9,15 +9,29 @@ if(!isset($_SESSION['email'])){
 
 <? include('D:\openserver\ospanel\domains\Barbershop.com\personal\header-personal.php'); ?>
 <body>
+<div class="global-wrapper1">
 <? include('D:\openserver\ospanel\domains\Barbershop.com\inc\nav.php'); ?>
 
 
-<div class="global-wrapper">
-	<div class="content">
-	<div class="navigation">
-	<div class="back"><a href="/registration/personal.php">Назад</a></div>
-	<div class="skip"><a href="">Пропустить выбор сотрудника</a></div>
+
+<div class="content">
+	<div class="client-content">
+	<div class="header">
+		<h3>Сотрудники</h3>
+		<div class="client">
+	  <!-- информация о зашедшем пользователе -->
+		<? if(isset($_SESSION['email'])) : ?>
+			<p><h3>Добро пожаловать, </h3>  <h4> <? echo $_SESSION['email']; ?></h4></p>
+		<?endif?>
+	</div>
+	</div>
+
+
+
+
 </div>
+
+
 
 <div class="wrapper">
 <div class="person-block">
@@ -36,7 +50,7 @@ if(!isset($_SESSION['email'])){
 </div>
 <div class="person-footer">
 	<div class="sessions">
-		<span>Ближайшие сеансы</span> 
+		<span>Ближайшие сеансы : </span> 
 	</div>
 	<div class="time">
 		<a href="">09:10</a>
@@ -57,7 +71,7 @@ if(!isset($_SESSION['email'])){
 	<div class="person">
 			<img src="/img/team/person2.jpeg" alt="">
 			<div class="name">
-				<h3>Евпатий</h3>
+			<a href=""><h3>Евпатий</h3></a>
 				<h4>Мастер</h4>
 			</div>
 		</div>
@@ -67,7 +81,7 @@ if(!isset($_SESSION['email'])){
 </div>
 <div class="person-footer">
 	<div class="sessions">
-		<span>Ближайшие сеансы</span> 
+		<span>Ближайшие сеансы : </span> 
 	</div>
 	<div class="time">
 		13:00
@@ -88,7 +102,7 @@ if(!isset($_SESSION['email'])){
 	<div class="person">
 			<img src="/img/team/person2.jpeg" alt="">
 			<div class="name">
-				<h3>Иван</h3>
+			<a href=""><h3>Иван</h3></a>
 				<h4>Мастер</h4>
 			</div>
 		</div>
@@ -98,7 +112,7 @@ if(!isset($_SESSION['email'])){
 </div>
 <div class="person-footer">
 	<div class="sessions">
-		<span>Ближайшие сеансы</span> 
+		<span>Ближайшие сеансы : </span>  
 	</div>
 	<div class="time">
 		18:00
@@ -112,10 +126,15 @@ if(!isset($_SESSION['email'])){
 </div>
 </div>
 
+	<div class="content">
+	<div class="navigation-team">
+	<div class="back"><a href="/registration/personal.php">Назад</a></div>
+	<div class="skip"><a href="">Пропустить выбор сотрудника</a></div>
+
 
 </div>
-	</div>
-
+</div>
+</div>
 </body>
 <? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\footer.php'); ?>
 </div>

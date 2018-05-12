@@ -5,10 +5,18 @@
 
 }
 
+body{
+	background:whitesmoke;
+}
+
 section.sec1{
 	box-sizing: border-box;
 	background-size: cover;	
 	overflow: hidden;
+}
+
+section.sec1 img{
+	border-bottom: 2px solid #EFEFEF;
 }
 
 .content{
@@ -62,9 +70,13 @@ nav{
 	margin-left: 18%;
 }
 
+.brand a{
+	text-decoration: none;
+}
+
 .brand p{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 24pt;
+	font-size: 20pt;
 	width: 100%;
 	color:white;
 }

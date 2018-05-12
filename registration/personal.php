@@ -9,31 +9,42 @@ if(!isset($_SESSION['email'])){
 
 <? include('D:\openserver\ospanel\domains\Barbershop.com\personal\header-personal.php'); ?>
 <body>
-<div class="global-wrapper">
+
 <? include('D:\openserver\ospanel\domains\Barbershop.com\inc\nav.php'); ?>
-
+<div class="wrapper-personal">
 <div class="content">
-
-<div class="client-content">
+	<div class="client-content">
 	<div class="header">
-		<h2>Запись на прием </h2>
+		<h3>Запись на прием </h3>
 		<div class="client">
 	  <!-- информация о зашедшем пользователе -->
 		<? if(isset($_SESSION['email'])) : ?>
-			<p>Добро пожаловать, <strong> <? echo $_SESSION['email']; ?></strong></p>
+			<p><h3>Добро пожаловать, </h3>  <h4> <? echo $_SESSION['email']; ?></h4></p>
 		<?endif?>
 	</div>
 	</div>
 
-<form action="">
-	<a href="/booking/team.php"><h3>Сотрудники</h3></a>
-	<a href="/booking/service.php"><h3>Услуга</h3></a>
-	<a href=""><h3>Дата и время</h3></a>
-</form>
+<div class="cards">
+	<div class="card1"><a href="/booking/team.php"><h3>Сотрудники</h3></a></div>
+	<div class="card2"><a href="/booking/service.php"><h3>Услуги</h3></a></div>
+	<div class="card3"> <a href="/booking/datentime.php"><h3>Дата и время</h3></a></div>
+</div>
+
+<div class="cards-output">
+	<div class="card-output1"><h4>Иван</h4></div>
+	<div class="card-output2"></div>
+	<div class="card-output3"></div>
+</div>
+
+
+
+
+</div>
 </div>
 </div>
 <? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\footer.php'); ?>
 </div>
+
 </body>
 
 
