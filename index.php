@@ -8,20 +8,25 @@
 <? include('inc/nav.php'); ?>
 <div class="line"></div>
 
-<section class="sec1">
+
 	
 <div class="lent">
-
 	<div class="circles">
 		<div class="circle1"><p>Hello</p></div>
 		<div class="circle2"><p>Hello</p></div>
 		<div class="circle3"><p>Hello</p></div>
 	</div>
-	
 </div>
-	<img src="img/bshop3.jpg" width="100%" height="100%" alt="">
+
+<div id="slider">
+	<div id="box">
+		<img name="slide" src="img/img3.jpg" width="100%" height="100%" alt="">
+	</div>
+	<button class="prew">-</button>
+	<button class="next" >+</button>
+</div>
 	
-</section>
+
 
 <div class="content">
 	<div class="vedenie">
