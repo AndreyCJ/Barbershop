@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.brand{
+
+	color:white;
+	float:left;
+	height: 100%;
+	line-height: 55px;
+	margin-left: 18%;
+}
+
+.brand p{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 24pt;
+	width: 100%;
+	color:white;
+}
+
+nav{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 55px;
+	background:rgba(33, 33, 33, 0.9) ;
+	padding: 0, 100px;
+	box-sizing: border-box;
+}
+
+
+nav ul{
+	display: flex;
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-right: 18%;
+	
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	position: relative;
+	display: block;
+	height: 55px;
+	line-height: 55px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0;
+	box-sizing: border-box;
+	color:#fff;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+}
+
+nav ul li a:hover{
+	color:#3acedb;
+	border-bottom: 2px solid #3acedb;
+}
+
+.wrapper{
+	height: 100%;
+	position: relative;
+}
+
+.upfooter{
+	background:#333333;
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	flex: 0 0 auto;
+}
+
+
+.global-wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+
+.info {
+	margin-left: 35%;
+	width: 550px;
+	display: inline-block;
+	color: #1B1B1B;
+	text-align: center;
+	line-height: 0.85;
+	font-family: 'Gothic A1', sans-serif;
+	border-bottom:2px solid currentColor;
+	padding-top: 50px;
+}
+
+.info h2{
+	line-height: 2;
+}
+
+.contacts{
+	color:whitesmoke;
+	font-family: 'Gothic A1', sans-serif;
+	margin-left: 18%;
+	display: flex;
+}
+
+.contacts ul li{
+	list-style: none;
+}
+
+.phone{
+	display: inline;
+	padding-top: 5.5%;
+	margin-right: 5%;
+	line-height: 1.5;
+}
+
+.phone h3{
+	border-bottom: 2px solid whitesmoke;
+}
+
+.phone p{
+	padding-top: 1px;
+}
+
+.adress{
+	display: inline;
+	padding-top: 5.5%;
+	margin-right: 5%;
+	line-height: 1.5;
+}
+
+.adress  h3{
+	border-bottom: 2px solid whitesmoke;
+}
+
+.mail{
+	display: inline;
+	padding-top: 5.5%;
+	margin-right: 5%;
+	line-height: 1.5;
+}
+
+.mail  h3{
+	border-bottom: 2px solid whitesmoke;
+}
+
+.social{
+	display: flex;
+	padding-top:5.5%;
+	margin-left: 25px;
+}
+
+.social img{
+	width: 45px;
+	height: 45px;
+	margin-right: 35px;
+}
+
+
+footer{
+	height: 55px;
+	width: 100%;
+	background: #292828;
+	flex: 0 0 auto;
+}
+
+.footer-personal{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 55px;
+	width: 100%;
+	background: #292828;
+}
+
+footer p{
+	text-align: center;
+	color:white;
+	height:55px;
+	line-height: 55px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: Medium;
+}
+
+body{
+	position: relative;
+}
+
+html, body{
+	height: 100%;
+}
+
+.client-content{
+	margin-top: 2%;
+	width: 1200px;
+	margin-left: 18%;
+	font-family: 'Gothic A1', sans-serif;
+	color: #1B1B1B;
+}
+
+.content{
+	flex: 1 0 auto;
+}
+
+.client{
+	text-align: right;
+	display: inline;
+}
+
+.header {
+	display: flex;
+}
+
+.client strong{
+	padding-right: 10px;
+}
+
+.header h2{	
+	box-sizing:border-box;
+	padding-bottom:5px;
+	width: 100%;
+	border-bottom: 2px solid #3acedb;
+	color: #1B1B1B;
+}
+
+.client p{
+	word-wrap:break-word;
+	border-bottom: 2px solid #3acedb;
+}
+
+.person-block{
+	position: relative;
+	width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	height: 250px;
+	font-family: 'Ubuntu', sans-serif;
+	border: 1px solid #E0E0E0;
+	border-radius: 15px;
+}
+
+.master-card{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E0E0E0;
+	height: 150px;
+}
+
+.person-cell{
+	width: 500px;
+	height: 100px;
+}
+
+.person{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	height: 150px;
+}
+
+.person img{
+	border-radius: 15px;
+}
+
+.person a{
+	text-decoration: none;
+	color: #1B1B1B;
+}
+
+.name{
+	padding-left: 50px;
+}
+
+.name h3{
+	font-size: 26px;
+}
+
+.name h4{
+	font-size: 14px;
+	color: #666666;
+}
+
+.person-footer{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.person-footer{
+	display:flex;
+}
+
+.sessions{
+	font-size: 18px;
+	text-align: left;
+	width: 100%;
+}
+.time{
+	text-align: right;
+	margin-left: 15px;
+	font-size: 18px;
+	color: #3acedb;
+}
+
+.time:hover{
+	border-bottom: 1px solid #3acedb;
+	cursor: pointer;
+}
+
+.time a{
+	text-decoration: none;
+	color: #3acedb;
+}
+
+.navigation{
+	margin-top: 20px;
+	display:flex;
+	width: 560px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.back{
+	display: block;
+	width: 70px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.skip{
+	display: block;
+	text-align: right;
+	height: 35px;
+	line-height: 35px;
+	width: 50%;
+	margin-left: 250px;
+}
