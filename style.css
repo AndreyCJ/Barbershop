@@ -347,18 +347,20 @@ html, body{
 
 .prew{
 	position: absolute;
-	margin-top: -450px;
+	margin-top: -22%;
 	width: 40px;
-	height: 40px;
+	height: 50px;
 	margin-left: 1%;
+	left: 0;
 
 }
 
 .next{
-	position: relative;
-	margin-top: -450px;
+	position: absolute;
+	margin-top: -22% ;
 	width: 40px;
-	height: 40px;
+	height: 50px;
+	right: 0;
 	float: right;
 	margin-right: 1%;
 
@@ -366,6 +368,18 @@ html, body{
 
 .next, .prew{
 	border: none;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.1);
 	color: white;
+	font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+	cursor: pointer;
+}
+
+.next:hover{
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.prew:hover{
+	background: rgba(0, 0, 0, 0.6);
 }

@@ -22,8 +22,8 @@
 	<div id="box">
 		<img name="slide" src="img/img3.jpg" width="100%" height="100%" alt="">
 	</div>
-	<button class="prew">-</button>
-	<button class="next" >+</button>
+	<button class="prew" onclick="SlideButtons('prew');" >&#10094;</button>
+	<button class="next" onclick="SlideButtons('next');" >&#10095;</button>
 </div>
 	
 

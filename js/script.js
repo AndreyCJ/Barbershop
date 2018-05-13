@@ -1,6 +1,6 @@
 var i = 0;
 var images = [];
-var time = 10000;
+var time = 30000;
 
 
 // Image list
@@ -21,5 +21,22 @@ function changeImg(){
 	}
 	setTimeout("changeImg()",time);
 }
+
+function SlideButtons(param){
+	if(param === 'next'){
+		i++;
+		if(i > images.length - 1 ){
+			i = 0;
+		}
+	} else {
+			i--;
+			if (i < 0){
+			i = images.length -1;
+		}
+		
+	}
+	document.slide.src = images[i];
+}
+
 
 window.onload = changeImg;
