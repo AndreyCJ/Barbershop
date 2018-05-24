@@ -108,12 +108,12 @@ nav ul li a{
 	font-family: 'Ubuntu', sans-serif, bold;
 	font-style:bold;
 	font-size: 14px;
-	
 }
 
 nav ul li a:hover{
+	transition: 0.5s;
 	color:#3acedb;
-	border-bottom: 2px solid #3acedb;
+	border-bottom: 1px solid #3acedb;
 }
 
 footer{

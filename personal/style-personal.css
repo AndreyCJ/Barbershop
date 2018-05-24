@@ -65,8 +65,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
+	transition: 0.5s;
 	color:#3acedb;
-	border-bottom: 2px solid #3acedb;
+	border-bottom: 1px solid #3acedb;
 }
 
 .wrapper{
