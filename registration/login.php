@@ -1,6 +1,5 @@
 <?
-	include('server.php');
-
+	include('../config/server.php');
 ?>
 
 
@@ -10,9 +9,9 @@
 
 
 
-<? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\headerreg.php'); ?>
+<? include('../inc/headerreg.php'); ?>
 <body>
-<? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\nav.php'); ?>
+<? include('../inc/nav.php'); ?>
 
 <div class="wrapper">
 <div class="info"><h2>Для записи нужно войти в учетную запись</h2></div>
@@ -36,4 +35,4 @@
 	</div>
 	</body>
 
-<? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\footer.php'); ?>
+<? include('../inc/footer.php'); ?>

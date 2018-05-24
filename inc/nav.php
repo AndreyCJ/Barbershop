@@ -1,4 +1,12 @@
-<?require 'D:\openserver\ospanel\domains\Barbershop.com\config\config.php';?>
+<? 
+$url1 = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+
+if ($url1 === 'http://barbershop/'){
+		include('/config/server.php');
+	}else{
+		include('../config/server.php');
+	} 
+?>
 <nav>
 		<div class="brand"><a href="<?echo ROOT_URL;?>"><p>BARBER SHOP</p></a></div>
 			<ul>

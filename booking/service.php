@@ -7,10 +7,10 @@ if(!isset($_SESSION['email'])){
 }
 ?>
 
-<? include('D:\openserver\ospanel\domains\Barbershop.com\personal\header-personal.php'); ?>
+<? include('../personal/header-personal.php'); ?>
 <body>
 <div class="global-wrapper-sevice">
-<? include('D:\openserver\ospanel\domains\Barbershop.com\inc\nav.php'); ?>
+<? include('../inc/nav.php'); ?>
 
 
 <div class="content-service">
@@ -117,16 +117,6 @@ if(!isset($_SESSION['email'])){
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
 	<div class="content">
 		<div class="navigation-service">
 			<div class="back"><a href="/registration/personal.php">Назад</a></div>
@@ -145,6 +135,6 @@ if(!isset($_SESSION['email'])){
 
 
 
-<? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\footer.php'); ?>
+<? include('../inc/footer.php'); ?>
 </div>
 </body>

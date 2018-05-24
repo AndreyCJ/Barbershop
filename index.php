@@ -1,11 +1,12 @@
 <?
 	session_start();
+
 ?>
 
 
-<? include('inc/header.php');?>
+<? include('/inc/header.php');?>
 <body>
-<? include('inc/nav.php'); ?>
+<? include('/inc/nav.php'); ?>
 <div class="line"></div>
 
 
@@ -122,4 +123,4 @@
 
 
 
-<? include('inc/footer.php'); ?>
+<? include('/inc/footer.php'); ?>

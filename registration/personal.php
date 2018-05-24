@@ -7,10 +7,10 @@ if(!isset($_SESSION['email'])){
 }
 ?>
 
-<? include('D:\openserver\ospanel\domains\Barbershop.com\personal\header-personal.php'); ?>
+<? include('../personal/header-personal.php'); ?>
 <body>
 
-<? include('D:\openserver\ospanel\domains\Barbershop.com\inc\nav.php'); ?>
+<? include('../inc/nav.php'); ?>
 <div class="wrapper-personal">
 <div class="content">
 	<div class="client-content">
@@ -42,7 +42,7 @@ if(!isset($_SESSION['email'])){
 </div>
 </div>
 </div>
-<? include('D:\OpenServer\OSPanel\domains\Barbershop.com\inc\footer.php'); ?>
+<? include('../inc/footer.php'); ?>
 </div>
 
 </body>
